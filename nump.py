@@ -26,4 +26,16 @@ print(g)
 h=f@g
 print(h)
 print(h.max())
-print("\n\nBYE BYE :)")
+
+
+print(np.random.randint(1,12,(3,3,5)))
+
+s1="hello guys"
+s2="whats up"
+
+print(np.char.add(s1,s2))
+print(np.char.upper(s1))
+print(np.char.split(s1))
+print(np.char.splitlines(s1))
+print('\n')
+print(np.char.center('BYEBYE',40,'-'))
